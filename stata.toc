@@ -1,3 +1,5 @@
 v 0.1
 d Francesco Valentini, UNIVPM
-p cquadbasicr cquad R package runs in Stata
+p cquadbasicr cquad_basic() from cquad R package runs in Stata
+p cquadpseudor cquad_pseudo() from cquad R package runs in Stata
+p cquadequr cquad_equ() from cquad R package runs in Stata
