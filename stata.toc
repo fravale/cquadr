@@ -1,0 +1,3 @@
+v 0.1
+d Francesco Valentini, UNIVPM
+p cquadbasicr cquad R package runs in Stata
