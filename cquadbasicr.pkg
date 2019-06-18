@@ -1,0 +1,5 @@
+v 0.1
+d cquadbasicr cquad R package runs in Stata
+d Francesco Valentini, UNIVPM
+f cquadbasicr.ado
+f cquadbasicr.sthlp
