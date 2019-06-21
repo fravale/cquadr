@@ -1,9 +1,11 @@
 v 0.1
 d cquad R package runs in Stata
-d Francesco Valentini, UNIVPM
+d Francesco Bartolucci (UNIPG), Claudia Pigini (UNIVPM), Francesco Valentini (UNIVPM)
 f cquadbasicr.ado
 f cquadbasicr.sthlp
 f cquadpseudor.ado
 f cquadpseudor.sthlp
 f cquadequr.ado
 f cquadequr.sthlp
+f cquadextr.ado
+f cquadextr.sthlp
