@@ -48,7 +48,7 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 
 
 {synoptset 20 tabbed}{...}
-{p2col 5 30 30 2: Matrices}{p_end}
+{p2col 5 20 24 2: Matrices}{p_end}
 {synopt:{cmd:matrix list r(coefficients)}}coefficient vector{p_end}
 {synopt:{cmd:matrix list r(ser)}}standard errors{p_end}
 {synopt:{cmd:matrix list r(serr)}}robust standard errors{p_end}

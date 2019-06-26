@@ -1,18 +1,18 @@
 {smcl}
 
-{cmd:help cquadpseudo}{right:also see:  {help clogit}, {help cquadbasic}, {help cquadext}}
+{cmd:help cquadpseudor}{right:also see:  {help clogit}, {help cquadbasic}, {help cquadext}}
 {hline}
 
 {title:Title}
 
 {p2colset 5 17 21 2}{...}
-{p2col :{hi:cquadpseudo} {hline 2}}Pseudo conditional maximum likelihood estimation of the dynamic logit model
+{p2col :{hi:cquadpseudor} {hline 2}}Pseudo conditional maximum likelihood estimation of the dynamic logit model
 (Bartolucci and Nigro, 2012){p_end}
 {p2colreset}{...}
 
 {title:Syntax}
 
-{p 8 16 2}{cmd:cquadpseudo} {depvar} id [{indepvars}]
+{p 8 16 2}{cmd:cquadpseudor} {depvar} id [{indepvars}]
 
 {title:Description}
 
@@ -38,29 +38,21 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {pstd}Setup{p_end}
 {phang}{cmd:. webuse union}{p_end}
 
-{pstd}Fit (simplified) quadratic exponential model{p_end}
-{phang}{cmd:. cquadpseudo union idcode age grade}{p_end}
+{pstd}Fit PCML estimator for dynamic logit model{p_end}
+{phang}{cmd:. cquadpseudor idcode union age grade}{p_end}
 
 {title:Saved results}
 
 {pstd}
-{cmd:cquadpseudo} saves the following in {cmd:e()}:
-
-{synoptset 20 tabbed}{...}
-{p2col 5 20 24 2: Scalars}{p_end}
-{synopt:{cmd:e(lk)}}final conditional log-likelihood{p_end}
-
-{synoptset 20 tabbed}{...}
-{p2col 5 20 24 2: Macros}{p_end}
-{synopt:{cmd:e(cmd)}}{cmd:cquadpseudo}{p_end}
+{cmd:cquadbasicr} saves the following in matrix list {cmd:return matrix list}:
 
 {synoptset 20 tabbed}{...}
 {p2col 5 20 24 2: Matrices}{p_end}
-{synopt:{cmd:e(be)}}coefficient vector{p_end}
-{synopt:{cmd:e(se)}}standard errors{p_end}
-{synopt:{cmd:e(ser)}}robust standard errors{p_end}
-{synopt:{cmd:e(tstat)}}t-statistics based on robust standard errors{p_end}
-{synopt:{cmd:e(pv)}}p-values{p_end}
+{synopt:{cmd:matrix list r(coefficients)}}coefficient vector{p_end}
+{synopt:{cmd:matrix list r(ser_ps)}}standard errors{p_end}
+{synopt:{cmd:matrix list r(serr_ps)}}first-step robust standard errors{p_end}
+{synopt:{cmd:matrix list r(He_ps)}}Hessian matrix of the conditional likelihood function{p_end}
+{synopt:{cmd:matrix list r(vcov_ps)}}coefficients covariance matrix{p_end}
 
 {title:Author}
 
@@ -68,6 +60,12 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {pstd}Department of Economics, University of Perugia {p_end}
 {pstd}Perugia, Italy{p_end}
 {pstd}bart@stat.unipg.it{p_end}
+
+{pstd}Francesco Valentini{p_end}
+{pstd}Department of Economics and Social Science, Marche Polytechnic University{p_end}
+{pstd}Ancona, Italy{p_end}
+{pstd}f.valentini@pm.univpm.it{p_end}
+
 
 {title:References}
 
@@ -78,3 +76,5 @@ Bartolucci, F. & Nigro, V. (2010). A dynamic model for binary panel data with un
 Bartolucci, F. & Nigro, V. (2012). Pseudo conditional maximum likelihood estimation of the dynamic logit model for binary panel data. Journal of Econometrics, 170, pp. 102-116.
 
 
+{pstd}
+cquadr User guide. https://github.com/fravale/cquadr/blob/master/cquadr-guide.pdf{p_end}
