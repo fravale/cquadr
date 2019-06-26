@@ -1,6 +1,6 @@
 {smcl}
 
-{cmd:help cquadpseudor}{right:also see:  {help clogit}, {help cquadbasic}, {help cquadext}}
+{cmd:help cquadpseudor}{right:also see:  {help clogit}, {help cquadbasicr}, {help cquadextr}}
 {hline}
 
 {title:Title}
@@ -12,7 +12,7 @@
 
 {title:Syntax}
 
-{p 8 16 2}{cmd:cquadpseudor} {depvar} id [{indepvars}]
+{p 8 16 2}{cmd:cquadpseudor} id {depvar} [{indepvars}]
 
 {title:Description}
 
