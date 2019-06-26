@@ -12,7 +12,7 @@ version of the quadratic exponential model by Bartolucci and Nigro (2010){p_end}
 
 {title:Syntax}
 
-{p 8 16 2}{cmd:cquadbasicr} {depvar} id [{indepvars}]
+{p 8 16 2}{cmd:cquadbasicr} id {depvar} [{indepvars}]
 
 {title:Description}
 
@@ -55,7 +55,7 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {synopt:{cmd:matrix list r(He)}}Hessian matrix of the conditional likelihood function{p_end}
 {synopt:{cmd:matrix list r(vcov)}}coefficients covariance matrix{p_end}
 
-{title:Author}
+{title:Authors}
 
 {pstd}Francesco Bartolucci{p_end}
 {pstd}Department of Economics, University of Perugia {p_end}
@@ -74,5 +74,8 @@ Bartolucci, F. & Nigro, V. (2010). A dynamic model for binary panel data with un
 
 {pstd}
 Cox, D. R. (1972). The Analysis of multivariate binary data. Applied Statistics, 21, 113-120.{p_end}
+
+{pstd}
+cquadr User guide. https://github.com/fravale/cquadr/blob/master/cquadr-guide.pdf{p_end}
 
 
