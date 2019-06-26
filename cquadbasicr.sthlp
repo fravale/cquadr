@@ -1,18 +1,18 @@
 {smcl}
 
-{cmd:help cquadbasic}{right:also see:  {help clogit}, {help cquadequ}, {help cquadext}}
+{cmd:help cquadbasicr}{right:also see:  {help clogit}, {help cquadequr}, {help cquadextr}}
 {hline}
 
 {title:Title}
 
 {p2colset 5 17 21 2}{...}
-{p2col :{hi:cquadbasic} {hline 2}}Conditional maximum likelihood estimation for a (simplified)
+{p2col :{hi:cquadbasicr} {hline 2}}Conditional maximum likelihood estimation for a (simplified)
 version of the quadratic exponential model by Bartolucci and Nigro (2010){p_end}
 {p2colreset}{...}
 
 {title:Syntax}
 
-{p 8 16 2}{cmd:cquadbasic} {depvar} id [{indepvars}]
+{p 8 16 2}{cmd:cquadbasicr} {depvar} id [{indepvars}]
 
 {title:Description}
 
@@ -39,28 +39,21 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {phang}{cmd:. webuse union}{p_end}
 
 {pstd}Fit (simplified) quadratic exponential model{p_end}
-{phang}{cmd:. cquadbasic union idcode age grade}{p_end}
+{phang}{cmd:. cquadbasicr union idcode age grade}{p_end}
 
 {title:Saved results}
 
 {pstd}
-{cmd:cquadbasic} saves the following in {cmd:e()}:
+{cmd:cquadbasicr} saves the following in matrix list {cmd:return matrix list}:
 
-{synoptset 20 tabbed}{...}
-{p2col 5 20 24 2: Scalars}{p_end}
-{synopt:{cmd:e(lk)}}final conditional log-likelihood{p_end}
-
-{synoptset 20 tabbed}{...}
-{p2col 5 20 24 2: Macros}{p_end}
-{synopt:{cmd:e(cmd)}}{cmd:cquadbasic}{p_end}
 
 {synoptset 20 tabbed}{...}
 {p2col 5 20 24 2: Matrices}{p_end}
-{synopt:{cmd:e(coefficients)}}coefficient vector{p_end}
-{synopt:{cmd:e(ser)}}standard errors{p_end}
-{synopt:{cmd:e(serr)}}robust standard errors{p_end}
-{synopt:{cmd:e(tstat)}}t-statistics{p_end}
-{synopt:{cmd:e(pv)}}p-values{p_end}
+{synopt:{cmd:matrix list r(coefficients)}}coefficient vector{p_end}
+{synopt:{cmd:matrix list r(ser)}}standard errors{p_end}
+{synopt:{cmd:matrix list r(serr)}}robust standard errors{p_end}
+{synopt:{cmd:matrix list r(He)}}Hessian matrix of the conditional likelihood function{p_end}
+{synopt:{cmd:matrix list r(vcov)}}coefficients covariance matrix{p_end}
 
 {title:Author}
 
@@ -72,6 +65,7 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {pstd}Francesco Valentini{p_end}
 {pstd}Department of Economics and Social Science, Marche Polytechnic University{p_end}
 {pstd}Ancona, Italy{p_end}
+{pstd}f.valentini@pm.univpm.it{p_end}
 
 {title:References}
 
