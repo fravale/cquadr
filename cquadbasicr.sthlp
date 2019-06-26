@@ -5,7 +5,7 @@
 
 {title:Title}
 
-{p2colset 5 17 21 2}{...}
+{p2colset 10 17 21 2}{...}
 {p2col :{hi:cquadbasicr} {hline 2}}Conditional maximum likelihood estimation for a (simplified)
 version of the quadratic exponential model by Bartolucci and Nigro (2010){p_end}
 {p2colreset}{...}
@@ -48,7 +48,7 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 
 
 {synoptset 20 tabbed}{...}
-{p2col 5 20 24 2: Matrices}{p_end}
+{p2col 5 30 30 2: Matrices}{p_end}
 {synopt:{cmd:matrix list r(coefficients)}}coefficient vector{p_end}
 {synopt:{cmd:matrix list r(ser)}}standard errors{p_end}
 {synopt:{cmd:matrix list r(serr)}}robust standard errors{p_end}
