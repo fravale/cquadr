@@ -39,7 +39,7 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {phang}{cmd:. webuse union}{p_end}
 
 {pstd}Fit (simplified) quadratic exponential model{p_end}
-{phang}{cmd:. cquadbasicr union idcode age grade}{p_end}
+{phang}{cmd:. cquadbasicr idcode union age grade}{p_end}
 
 {title:Saved results}
 
