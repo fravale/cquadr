@@ -38,7 +38,7 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {pstd}Setup{p_end}
 {phang}{cmd:. webuse union}{p_end}
 
-{pstd}Fit PCML estimator for dynamic logit model{p_end}
+{pstd}PCML estimator for dynamic logit model{p_end}
 {phang}{cmd:. cquadpseudor idcode union age grade}{p_end}
 
 {title:Saved results}
