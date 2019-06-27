@@ -33,7 +33,8 @@ program cquadextr, rclass
 	He = as.matrix(out\$J);			 				/// return Hessian of the lk function
 	ser = as.matrix(out\$se);			 				/// return standard errors
 	serr = as.matrix(out\$ser);					 /// return robust s.e.
-	rm(out);											/// erase stored results
+        rm(out);
+        rm(names);               /// erase stored results
 	rm(A); 
 	
 	// restore the data
