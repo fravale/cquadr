@@ -1,6 +1,6 @@
 {smcl}
 
-{cmd:help cquadext}{right:also see:  {help clogit}, {help cquadbasic}, {help cquadequ}}
+{cmd:help cquadextr}{right:also see:  {help clogit}, {help cquadbasicr}, {help cquadequr}}
 {hline}
 
 {title:Title}
@@ -11,7 +11,7 @@
 
 {title:Syntax}
 
-{p 8 16 2}{cmd:cquadext} {depvar} id [{indepvars}]
+{p 8 16 2}{cmd:cquadextr} id {depvar} [{indepvars}]
 
 {title:Description}
 
