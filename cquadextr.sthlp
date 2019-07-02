@@ -44,28 +44,21 @@ beta is indicated by diff-cov1... in the output
 {phang}{cmd:. webuse union}{p_end}
 
 {pstd}Fit quadratic exponential model{p_end}
-{phang}{cmd:. cquadext union idcode age grade}{p_end}
+{phang}{cmd:. cquadextr idcode union age grade}{p_end}
 
 {title:Saved results}
 
 {pstd}
-{cmd:cquadext} saves the following in {cmd:e()}:
+{cmd:cquadextr} saves the following in matrix list {cmd:return matrix list}:
 
-{synoptset 20 tabbed}{...}
-{p2col 5 20 24 2: Scalars}{p_end}
-{synopt:{cmd:e(lk)}}final conditional log-likelihood{p_end}
-
-{synoptset 20 tabbed}{...}
-{p2col 5 20 24 2: Macros}{p_end}
-{synopt:{cmd:e(cmd)}}{cmd:cquadext}{p_end}
 
 {synoptset 20 tabbed}{...}
 {p2col 5 20 24 2: Matrices}{p_end}
-{synopt:{cmd:e(be)}}coefficient vector{p_end}
-{synopt:{cmd:e(se)}}standard errors{p_end}
-{synopt:{cmd:e(ser)}}robust standard errors{p_end}
-{synopt:{cmd:e(tstat)}}t-statistics{p_end}
-{synopt:{cmd:e(pv)}}p-values{p_end}
+{synopt:{cmd:matrix list r(coefficients)}}coefficient vector{p_end}
+{synopt:{cmd:matrix list r(ser)}}standard errors{p_end}
+{synopt:{cmd:matrix list r(serr)}}robust standard errors{p_end}
+{synopt:{cmd:matrix list r(He)}}Hessian matrix of the conditional likelihood function{p_end}
+{synopt:{cmd:matrix list r(vcov)}}coefficients covariance matrix{p_end}
 
 {title:Author}
 
@@ -74,9 +67,16 @@ beta is indicated by diff-cov1... in the output
 {pstd}Perugia, Italy{p_end}
 {pstd}bart@stat.unipg.it{p_end}
 
+
+{pstd}Francesco Valentini{p_end}
+{pstd}Department of Economics and Social Science, Marche Polytechnic University{p_end}
+{pstd}Ancona, Italy{p_end}
+{pstd}f.valentini@pm.univpm.it{p_end}
 {title:References}
 
 {pstd}
 Bartolucci, F. & Nigro, V., (2010). A dynamic model for binary panel data with unobserved heterogeneity admitting a root-n consistent conditional estimator. Econometrica, 78, pp. 719-733.{p_end}
 
+{pstd}
+cquadr User guide. https://github.com/fravale/cquadr/blob/master/cquadr-guide.pdf{p_end}
 
