@@ -44,7 +44,7 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {title:Saved results}
 
 {pstd}
-{cmd:cquadbasicr} saves the following in matrix list {cmd:return matrix list}:
+{cmd:cquadpseudor} saves the following in matrix list {cmd:return matrix list}:
 
 {synoptset 20 tabbed}{...}
 {p2col 5 20 24 2: Matrices}{p_end}
