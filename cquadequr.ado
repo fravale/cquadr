@@ -39,7 +39,7 @@ program cquadequr, rclass
 	// restore the data
 	restore
 	
-	// Return scalars and matrices to Stata. The magin happens here
+	// Return scalars and matrices to Stata. 
 	// =========================================================================
 	return add
 end
