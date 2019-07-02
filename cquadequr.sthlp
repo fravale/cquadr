@@ -57,18 +57,23 @@ id (compulsory) is the list of the reference unit of each observation{p_end}
 {synopt:{cmd:matrix list r(He)}}Hessian matrix of the conditional likelihood function{p_end}
 {synopt:{cmd:matrix list r(vcov)}}coefficients covariance matrix{p_end}
 
-{title:Author}
+{title:Authors}
 
 {pstd}Francesco Bartolucci{p_end}
 {pstd}Department of Economics, University of Perugia {p_end}
 {pstd}Perugia, Italy{p_end}
-{pstd}bart@stat.unipg.it{p_end}
+{pstd}francesco.bartolucci@unipg.it{p_end}
 
+{pstd}Claudia Pigini{p_end}
+{pstd}Department of Economics and Social Science, Marche Polytechnic University{p_end}
+{pstd}Ancona, Italy{p_end}
+{pstd}c.pigini@univpm.it{p_end}
 
 {pstd}Francesco Valentini{p_end}
 {pstd}Department of Economics and Social Science, Marche Polytechnic University{p_end}
 {pstd}Ancona, Italy{p_end}
 {pstd}f.valentini@pm.univpm.it{p_end}
+
 {title:References}
 
 {pstd}
