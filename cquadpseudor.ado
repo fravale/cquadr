@@ -39,14 +39,8 @@ program cquadpseudor, rclass
 	// restore the data
 	restore
 	
-	// Return scalars and matrices to Stata. The magin happens here
+	// Return scalars and matrices to Stata.
 	// =========================================================================
 	return add
 end
 
-/*
-	vcov_ps = as.matrix(out\$vcov);			 	/// return variance-covariance matrix
-	He_ps = as.matrix(out\$J);			 				/// return Hessian of the lk function
-	ser_ps = as.matrix(out\$se);			 				/// return standard errors
-	serr_ps = as.matrix(out\$se2);					 /// return robust s.e.
-*\
