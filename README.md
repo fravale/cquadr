@@ -12,22 +12,14 @@ University of Perugia
 Perugia, Italy  
 francesco.bartolucci@unipg.it
 
-
-Claudia Pigini
-
-Department of Economics and Social Science, Marche Polytechnic University
-
-Ancona, Italy
-
+Claudia Pigini  
+Department of Economics and Social Science, Marche Polytechnic University  
+Ancona, Italy  
 c.pigini@univpm.it
 
-
-Francesco Valentini
-
-Department of Economics and Social Science, Marche Polytechnic University
-
-Ancona, Italy
-
+Francesco Valentini  
+Department of Economics and Social Science, Marche Polytechnic University  
+Ancona, Italy  
 f.valentini@pm.univpm.it
 
 **References**
