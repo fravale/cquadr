@@ -39,15 +39,10 @@ program cquadbasicr, rclass
 	// restore the data
 	restore
 	
-	// Return scalars and matrices to Stata. The magin happens here
+	// Return scalars and matrices to Stata. 
 	// =========================================================================
 	return add
 end
 
 
-// test
-/*
-sysuse auto, clear
-lm price mpg turn if price < 5000
-return list
 
