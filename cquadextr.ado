@@ -29,7 +29,7 @@ program cquadextr, rclass
 		library(cquad);                                     ///
 		///attach(read.csv("`RData'")); 					/// load temporary data
 		A = as.matrix(st.data()); ///head(A);  						/// load temporary data
-		out = cquad_ext(A[,1],A[,ncol(A)],A[,-c(1,ncol(A))],Ttol=5); ///
+		out = cquad_ext(A[,1],A[,ncol(A)],as.matrix(A[,-c(1,ncol(A))]),Ttol=5); ///
 		coefficients= as.matrix(out\$coefficients); summary(out);   	/// return coef
 		vcov = as.matrix(out\$vcov); /// return variance-covariance matrix
 		He = as.matrix(out\$J);			 				/// return Hessian of the lk function
