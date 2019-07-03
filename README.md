@@ -7,8 +7,8 @@ The User Guide for the cquadr Stata package can be dowloaded at https://github.c
 
 **Authors:**
 
-Francesco Bartolucci  Department of Economics, 
-University of Perugia  
+Francesco Bartolucci  
+Department of Economics, University of Perugia  
 Perugia, Italy  
 francesco.bartolucci@unipg.it
 
