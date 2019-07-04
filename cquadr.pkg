@@ -1,6 +1,6 @@
 v 1.0
 d Run the "cquad" R package in Stata by rcall
-d The "cquad" R package performs estimation of different version of the Quadratic Exponential Model
+d The "cquad" R package performs estimation of different versions of the Quadratic Exponential Model
 d Francesco Bartolucci (UNIPG), Claudia Pigini (UNIVPM), Francesco Valentini (UNIVPM)
 f cquadbasicr.ado
 f cquadbasicr.sthlp
