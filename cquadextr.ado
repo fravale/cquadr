@@ -1,6 +1,7 @@
 cap program drop cquadextr
 *program drop cquadextr
 program cquadextr, rclass
+	version 15.1
 
 	syntax varlist [if] [in]
 
