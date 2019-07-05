@@ -1,6 +1,7 @@
 cap program drop cquadpseudor
 *program drop cquadpseudor
 program cquadpseudor, rclass
+	version 15.1
 
 	syntax varlist [if] [in]
 	
