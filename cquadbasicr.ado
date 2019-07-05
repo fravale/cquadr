@@ -1,6 +1,7 @@
 cap program drop cquadbasicr
 *program drop cquadbasicr
 program cquadbasicr, rclass
+	version 15.1
 
 	syntax varlist [if] [in]
 	
