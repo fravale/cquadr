@@ -1,13 +1,20 @@
 cap program drop cquadbasicr
 *program drop cquadbasicr
 program cquadbasicr, rclass
-	version 15.1
+	version 12.0
 
 	syntax varlist [if] [in]
 	
 	// Make sure the user is having rcall installed and running
 	// =========================================================================
-	rcall_check
+        capture which rcall_check
+        if _rc != 0{
+        display "Please Install Haghish' rcall package"
+        error 198
+        }
+
+
+        
 	
 	// Syntax processing
 	// =========================================================================
