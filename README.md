@@ -3,7 +3,7 @@ Estimate the Quadratic Exponential models running the "cquad" R package in Stata
 
 The "cquad" R package performs estimation of different versions of the Quadratic Exponential Model, see Bartolucci, F. and Pigini, C. (2017) for further details.
 
-The User Guide for the cquadr Stata package can be dowloaded at https://github.com/fravale/cquadr/blob/master/cquadr-guide.pdf
+The User's Guide for the cquadr Stata package can be dowloaded at https://github.com/fravale/cquadr/blob/master/cquadr-guide.pdf
 
 **Authors:**
 
